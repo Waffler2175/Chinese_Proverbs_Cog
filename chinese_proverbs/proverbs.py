@@ -1,8 +1,9 @@
 import random
 import json
-
+import os
 async def run(interaction, count):
-    with open ('chengyu_data.json', 'r', encoding='utf-8') as f:
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    with open (os.path.join(dir_path, 'chengyu_data.json'), 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     entries = random.sample(data, count)
