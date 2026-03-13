@@ -1,7 +1,6 @@
 {
   "author": ["Waffle2175"],
   "install_msg": "Thanks for installing!",
-  "name": "chinese_proverbs",
   "short": "Get a random Chinese proverb.",
   "description": "Returns a random Chinese chengyu with pinyin and English translations.",
   "end_user_data_statement": "This cog does not store any user data."
