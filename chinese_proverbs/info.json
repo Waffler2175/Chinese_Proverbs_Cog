@@ -4,7 +4,7 @@
   "NAME": "ProverbsCog",
   "SHORT": "Chinese Proverbs, thats all.",
   "DESCRIPTION": "You can list out chinese proverbs, check the help command if more info is needed.",
-  "requirements": ["pip", "redbot.core", "discord", "random", "json"],
+  "requirements": ["pip", "Red-DiscordBot"],
   "tags": ["chinese", "proverbs"]
 }
 
